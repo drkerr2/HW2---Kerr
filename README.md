@@ -1,7 +1,4 @@
 # HW2---Kerr
-<<<<<<< HEAD
-testing
-=======
 ---
 title: "HW2"
 author: "drkerr2"
@@ -9,13 +6,52 @@ date: "9/7/2020"
 output: html_document
 ---
 ```{r}
-1+1
-
+###setting up HW2####
+#HW2(2) 2x +5y = 33 
+#       x + 3y = 19
+#       matrix a is:
+#       2 5
+#       1 3
+#       matrix b is:
+#       33
+#       19
 ```
+
+
 ```{r}
-
+a <- matrix(c(2,1,5,3), nrow = 2, ncol = 2)
+a
+> a
+     [,1] [,2]
+[1,]    2    5
+[2,]    1    3
 ```
 
+
+```{r}
+b <- matrix(c(8,2), nrow = 2, ncol = 1)
+b
+> b
+     [,1]
+[1,]    8
+[2,]    2
+```
+
+
+```{r}
+solve(a,b)
+
+> solve(a,b)
+     [,1]
+[1,]   14
+[2,]   -4
+```
+
+
+```{r}
+dyl <- c(1:100)
+dyl/100
+```
 
 
 
@@ -47,4 +83,3 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
->>>>>>> 906d7a94e98d2976edb4e19ce24cde841e22e6c4
