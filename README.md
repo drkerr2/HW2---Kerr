@@ -1,10 +1,3 @@
-# HW2---Kerr
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-testing
-=======
->>>>>>> 5f0cfde86a8bdc1b4a0ecb690a1ed5d1692e0140
 ---
 title: "HW2"
 author: "drkerr2"
@@ -56,16 +49,42 @@ solve(a,b)
 
 ```{r}
 dyl <- c(1:100)
-dyl/100
+sum(dyl)/100
+[1] 50.5
 ```
 
 
+```{r}
+> install.packages("dplyr")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
 
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/dkerr/Documents/R/win-library/4.0’
+(as ‘lib’ is unspecified)
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/dplyr_1.0.2.zip'
+Content type 'application/zip' length 1308048 bytes (1.2 MB)
+downloaded 1.2 MB
 
+package ‘dplyr’ successfully unpacked and MD5 sums checked
 
+The downloaded binary packages are in
+	C:\Users\dkerr\AppData\Local\Temp\RtmpGW63Mv\downloaded_packages
+> library(dplyr)
 
+Attaching package: ‘dplyr’
 
+The following objects are masked from ‘package:stats’:
 
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+HW2.df <- data.frame(row1 = c("A","D"), row2 = c("B","E"), row3 = c("C", "F"), row4 = c("D", "G"))
+print(HW2.df)
+```
+ 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -89,7 +108,3 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
-<<<<<<< HEAD
-=======
->>>>>>> 906d7a94e98d2976edb4e19ce24cde841e22e6c4
->>>>>>> 5f0cfde86a8bdc1b4a0ecb690a1ed5d1692e0140
