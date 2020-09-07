@@ -1,4 +1,10 @@
 # HW2---Kerr
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+testing
+=======
+>>>>>>> 5f0cfde86a8bdc1b4a0ecb690a1ed5d1692e0140
 ---
 title: "HW2"
 author: "drkerr2"
@@ -83,3 +89,7 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+<<<<<<< HEAD
+=======
+>>>>>>> 906d7a94e98d2976edb4e19ce24cde841e22e6c4
+>>>>>>> 5f0cfde86a8bdc1b4a0ecb690a1ed5d1692e0140
